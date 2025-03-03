@@ -1,0 +1,167 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SL2
+</name>
+</assembly>
+<members>
+<member name="T:SL2.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:SL2.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:SL2.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:SL2.SL2.TextBox2_TextChanged(System.Object,System.EventArgs)">
+ <summary>
+ Validate numeric input in txtBatch
+ </summary>
+</member>
+<member name="M:SL2.SL2.Txtbatch_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+ <summary>
+ Handle Enter or Tab key in txtBatch
+ </summary>
+</member>
+<member name="M:SL2.SL2.ValidateAndPrepareBatch">
+ <summary>
+ Perform validation checks and switch UI accordingly
+ </summary>
+</member>
+<member name="M:SL2.SL2.Butstip_Click(System.Object,System.EventArgs)">
+ <summary>
+ Start Tip (Butstip) - after selecting RM bin
+ Also disable changing the bin until finishing the blend
+ </summary>
+</member>
+<member name="M:SL2.SL2.Butftip_Click(System.Object,System.EventArgs)">
+ <summary>
+ Finish Tip (Butftip)
+ </summary>
+</member>
+<member name="M:SL2.SL2.Butsblend_Click(System.Object,System.EventArgs)">
+ <summary>
+ Start Blend (Butsblend)
+ </summary>
+</member>
+<member name="M:SL2.SL2.Butfblend_Click(System.Object,System.EventArgs)">
+ <summary>
+ Finish Blend (Butfblend)
+ </summary>
+</member>
+<member name="M:SL2.SL2.ButComplete_Click(System.Object,System.EventArgs)">
+ <summary>
+ Blend Complete (ButComplete)
+ </summary>
+</member>
+<member name="M:SL2.SL2.HandleBinSelection(System.String)">
+ <summary>
+ Shared method for selecting bin
+ </summary>
+</member>
+<member name="M:SL2.SL2.stipflash_Tick(System.Object,System.EventArgs)">
+ <summary>
+ Timer for flashing Butstip
+ </summary>
+</member>
+<member name="M:SL2.SL2.ftipflash_Tick(System.Object,System.EventArgs)">
+ <summary>
+ Timer for flashing Butftip
+ </summary>
+</member>
+<member name="M:SL2.SL2.sblendflash_Tick(System.Object,System.EventArgs)">
+ <summary>
+ Timer for flashing Butsblend
+ </summary>
+</member>
+<member name="M:SL2.SL2.fblendflash_Tick(System.Object,System.EventArgs)">
+ <summary>
+ Timer for flashing Butfblend
+ </summary>
+</member>
+<member name="M:SL2.SL2.Clean1flash_Tick(System.Object,System.EventArgs)">
+ <summary>
+ Timer for flashing Clean1 button
+ </summary>
+</member>
+<member name="M:SL2.SL2.Clean2flash_Tick(System.Object,System.EventArgs)">
+ <summary>
+ Timer for flashing Clean2 button
+ </summary>
+</member>
+<member name="M:SL2.SL2.Clean3flash_Tick(System.Object,System.EventArgs)">
+ <summary>
+ Timer for flashing Clean3 button
+ </summary>
+</member>
+<member name="M:SL2.SL2.getnextnumyy">
+ <summary>
+ Retrieve and increment 'Running' number in tfc_psequence2 (phase=5)
+ </summary>
+</member>
+<member name="M:SL2.SL2.InsertTFCPTiming2(System.String,System.String,System.Int32)">
+ <summary>
+ Insert a new TFC_PTiming2 record when starting a normal batch for the first time
+ </summary>
+</member>
+<member name="M:SL2.SL2.CheckBatchExistsInPTiming2(System.String)">
+ <summary>
+ Check if a certain BatchNo exists in TFC_PTiming2
+ </summary>
+</member>
+<member name="M:SL2.SL2.IsAlreadyBlended(System.String)">
+ <summary>
+ Check if the batch is already blended (FinishBlend or FGPackBinID not null)
+ </summary>
+</member>
+<member name="M:SL2.SL2.ShowCustomMessage(System.String,System.String,System.Drawing.Color,System.String)">
+ <summary>
+ Show a 2-language dialog box with optional icon (error/info/warning).
+ </summary>
+</member>
+<member name="M:SL2.SL2.clearscreen">
+ <summary>
+ Clears and resets the UI to the initial state
+ </summary>
+</member>
+<member name="M:SL2.FormMessage.#ctor(System.String)">
+ <summary>
+ Constructor that takes a message string and arranges controls in a vertically centered style.
+ </summary>
+</member>
+<member name="M:SL2.FormMessage.SetIconInfo">
+ <summary>
+ Displays an information icon in the PictureBox.
+ </summary>
+</member>
+<member name="M:SL2.FormMessage.SetIconError">
+ <summary>
+ Displays an error icon in the PictureBox.
+ </summary>
+</member>
+<member name="M:SL2.FormMessage.SetIconWarning">
+ <summary>
+ Displays a warning icon in the PictureBox.
+ </summary>
+</member>
+<member name="M:SL2.FormMessage.ButtonOK_Click(System.Object,System.EventArgs)">
+ <summary>
+ Event handler for the OK button.
+ </summary>
+</member>
+<member name="M:SL2.FormMessage.FormMessage_FormClosing(System.Object,System.Windows.Forms.FormClosingEventArgs)">
+ <summary>
+ If you want to prevent the user from closing via 'X', handle FormClosing here.
+ </summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,201 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SL3
+</name>
+</assembly>
+<members>
+<member name="T:SL3.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:SL3.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:SL3.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:SL3.SL3.SL3_Load(System.Object,System.EventArgs)">
+ <summary>
+ SL3 form load event
+ </summary>
+</member>
+<member name="M:SL3.SL3.SL3_Closing(System.Object,System.ComponentModel.CancelEventArgs)">
+ <summary>
+ Prevent closing the form if processes are not completed
+ </summary>
+</member>
+<member name="M:SL3.SL3.Startflash_Tick(System.Object,System.EventArgs)">
+ <summary>
+ Timer for flashing the 'Start' button
+ </summary>
+</member>
+<member name="M:SL3.SL3.Finishflash_Tick(System.Object,System.EventArgs)">
+ <summary>
+ Timer for flashing the 'Finish' button
+ </summary>
+</member>
+<member name="M:SL3.SL3.Clean1flash_Tick(System.Object,System.EventArgs)">
+ <summary>
+ Timer for flashing Clean1 button
+ </summary>
+</member>
+<member name="M:SL3.SL3.Clean2flash_Tick(System.Object,System.EventArgs)">
+ <summary>
+ Timer for flashing Clean2 button
+ </summary>
+</member>
+<member name="M:SL3.SL3.Clean3flash_Tick(System.Object,System.EventArgs)">
+ <summary>
+ Timer for flashing Clean3 button
+ </summary>
+</member>
+<member name="M:SL3.SL3.txtbatch_TextChanged(System.Object,System.EventArgs)">
+ <summary>
+ Validate numeric input in txtbatch
+ </summary>
+</member>
+<member name="M:SL3.SL3.txtbatch_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+ <summary>
+ Handle Enter or Tab key in txtbatch
+ </summary>
+</member>
+<member name="M:SL3.SL3.ValidateBatchAndSetup">
+ <summary>
+ Validate batch, check if 999999 => Clean Mode, otherwise do production checks
+ </summary>
+</member>
+<member name="M:SL3.SL3.butstart_Click(System.Object,System.EventArgs)">
+ <summary>
+ Start button click - Begin packing
+ </summary>
+</member>
+<member name="M:SL3.SL3.butfinish_Click(System.Object,System.EventArgs)">
+ <summary>
+ Finish button click - End packing
+ </summary>
+</member>
+<member name="M:SL3.SL3.Butbatchcomp_Click(System.Object,System.EventArgs)">
+ <summary>
+ Mark packing complete and update DB
+ </summary>
+</member>
+<member name="M:SL3.SL3.Butbin1_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handle numeric pad buttons for Bin selection or text input
+ </summary>
+</member>
+<member name="M:SL3.SL3.Butbackspace_Click(System.Object,System.EventArgs)">
+ <summary>
+ Backspace button
+ </summary>
+</member>
+<member name="M:SL3.SL3.HandleNumericKeypad(System.String)">
+ <summary>
+ Decide which textbox to append the pressed digit
+ </summary>
+</member>
+<member name="M:SL3.SL3.txtfgbin_GotFocus(System.Object,System.EventArgs)">
+ <summary>
+ When txtfgbin gets focus => numeric keypad is for fgbin
+ </summary>
+</member>
+<member name="M:SL3.SL3.txtbagsize_GotFocus(System.Object,System.EventArgs)">
+ <summary>
+ When txtbagsize gets focus => numeric keypad for bag size
+ </summary>
+</member>
+<member name="M:SL3.SL3.txtfullbags_GotFocus(System.Object,System.EventArgs)">
+ <summary>
+ When txtfullbags gets focus => numeric keypad for full bags
+ </summary>
+</member>
+<member name="M:SL3.SL3.txtpartbags_GotFocus(System.Object,System.EventArgs)">
+ <summary>
+ When txtpartbags gets focus => numeric keypad for part bags
+ </summary>
+</member>
+<member name="M:SL3.SL3.txtibckg_GotFocus(System.Object,System.EventArgs)">
+ <summary>
+ When txtibckg gets focus => numeric keypad for IBC (but in this code, not fully used)
+ </summary>
+</member>
+<member name="M:SL3.SL3.txtbagsize_TextChanged(System.Object,System.EventArgs)">
+ <summary>
+ Recalculate total when txtbagsize changes
+ </summary>
+</member>
+<member name="M:SL3.SL3.txtfullbags_TextChanged(System.Object,System.EventArgs)">
+ <summary>
+ Recalculate total when txtfullbags changes
+ </summary>
+</member>
+<member name="M:SL3.SL3.txtpartbags_TextChanged(System.Object,System.EventArgs)">
+ <summary>
+ Recalculate total when txtpartbags changes
+ </summary>
+</member>
+<member name="M:SL3.SL3.getnextnumyy">
+ <summary>
+ Retrieve and increment 'Running' number in tfc_psequence2 (phase=5)
+ </summary>
+</member>
+<member name="M:SL3.SL3.finalupdate">
+ <summary>
+ Write final data to TFC_PTiming2 (bagsize, fullbags, etc.)
+ </summary>
+</member>
+<member name="M:SL3.SL3.clearscreendown">
+ <summary>
+ Clear screen for next batch
+ </summary>
+</member>
+<member name="M:SL3.SL3.CheckBatchExistsInPTiming2(System.String)">
+ <summary>
+ Check if TFC_PTiming2 record exists for the given batch
+ </summary>
+</member>
+<member name="M:SL3.SL3.ShowCustomMessage(System.String,System.String,System.Drawing.Color,System.String)">
+ <summary>
+ Display a 2-language message box (with optional color/icon).
+ </summary>
+</member>
+<member name="M:SL3.FormMessage.#ctor(System.String)">
+ <summary>
+ Constructor that takes a message string and arranges controls in a vertically centered style.
+ </summary>
+</member>
+<member name="M:SL3.FormMessage.SetIconInfo">
+ <summary>
+ Displays an information icon in the PictureBox.
+ </summary>
+</member>
+<member name="M:SL3.FormMessage.SetIconError">
+ <summary>
+ Displays an error icon in the PictureBox.
+ </summary>
+</member>
+<member name="M:SL3.FormMessage.SetIconWarning">
+ <summary>
+ Displays a warning icon in the PictureBox.
+ </summary>
+</member>
+<member name="M:SL3.FormMessage.ButtonOK_Click(System.Object,System.EventArgs)">
+ <summary>
+ Event handler for the OK button.
+ </summary>
+</member>
+<member name="M:SL3.FormMessage.FormMessage_FormClosing(System.Object,System.Windows.Forms.FormClosingEventArgs)">
+ <summary>
+ If you want to prevent the user from closing via 'X', handle FormClosing here.
+ </summary>
+</member>
+</members>
+</doc>

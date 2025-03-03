@@ -1,0 +1,67 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SL1
+</name>
+</assembly>
+<members>
+<member name="T:SL1.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:SL1.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:SL1.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:SL1.SL1.CheckIfAlreadySieved(System.String)">
+ <summary>
+ Checks if the batch has already been sieved.
+ </summary>
+</member>
+<member name="M:SL1.SL1.ShowCustomMessage(System.String,System.String,System.Drawing.Color,System.String)">
+ <summary>
+ Show a custom message with two languages, a color, and an icon type.
+ iconType (e.g. "error", "info", "warning") will tell FormMessage which icon to use.
+ </summary>
+</member>
+<member name="M:SL1.FormMessage.#ctor(System.String)">
+ <summary>
+ Constructor that takes a message string and arranges controls in a vertically centered style.
+ </summary>
+</member>
+<member name="M:SL1.FormMessage.SetIconInfo">
+ <summary>
+ Displays an information icon in the PictureBox.
+ </summary>
+</member>
+<member name="M:SL1.FormMessage.SetIconError">
+ <summary>
+ Displays an error icon in the PictureBox.
+ </summary>
+</member>
+<member name="M:SL1.FormMessage.SetIconWarning">
+ <summary>
+ Displays a warning icon in the PictureBox.
+ </summary>
+</member>
+<member name="M:SL1.FormMessage.ButtonOK_Click(System.Object,System.EventArgs)">
+ <summary>
+ Event handler for the OK button.
+ </summary>
+</member>
+<member name="M:SL1.FormMessage.FormMessage_FormClosing(System.Object,System.Windows.Forms.FormClosingEventArgs)">
+ <summary>
+ If you want to prevent the user from closing via 'X', handle FormClosing here.
+ </summary>
+</member>
+</members>
+</doc>
