@@ -136,15 +136,17 @@ Public Class SL2
                         If Not objReader.HasRows Then
                             ' No rows => invalid
                             If thailanguage = 1 Then
-                                Lblfgdesc.Text = "แบทช์ไม่ถูกต้อง"
+                                Lblfgdesc.Text = "เลขแบทช์ไม่ถูกต้อง"
+                                Lblfgdesc.ForeColor = Color.Red
                             Else
                                 Lblfgdesc.Text = "Invalid batch"
+                                Lblfgdesc.ForeColor = Color.Red
                             End If
-                            Lblfgdesc.ForeColor = Color.Red
+
 
                             ShowCustomMessage(
                                 "Invalid batch number!",
-                                "แบทช์ไม่ถูกต้อง!",
+                                "เลขแบทช์ไม่ถูกต้อง!",
                                 Color.Red,
                                 "error"
                             )
@@ -1012,12 +1014,12 @@ Public Class SL2
                         ' If either FinishBlend or FGPackBinID is not NULL => already blended
                         If Not IsDBNull(reader("FinishBlend")) OrElse
                            Not IsDBNull(reader("FGPackBinID")) Then
-                            'If thailanguage = 1 Then
-                            '    Lblfgdesc.Text = "แบทช์นี้ผสมลงถัง " & reader("FGPackBinID").ToString() & " เรียบร้อยแล้ว"
-                            'Else
-                            '    Lblfgdesc.Text = "Already blended into bin " & reader("FGPackBinID").ToString()
-                            'End If
-                            'Lblfgdesc.ForeColor = Color.Red
+                            If thailanguage = 1 Then
+                                Lblfgdesc.Text = "แบทช์นี้ผสมลงถัง " & reader("FGPackBinID").ToString() & " เรียบร้อยแล้ว"
+                            Else
+                                Lblfgdesc.Text = "Already blended into bin " & reader("FGPackBinID").ToString()
+                            End If
+                            Lblfgdesc.ForeColor = Color.Red
 
 
                             ShowCustomMessage(
@@ -1082,6 +1084,7 @@ Public Class SL2
         Butfblend.Enabled = False
         ButComplete.Enabled = False
         txtfgbin.Enabled = False
+        txtrmbin.Enabled = False
 
         Butstip.BackColor = Color.LightGray
         Butftip.BackColor = Color.LightGray
@@ -1109,7 +1112,7 @@ Public Class SL2
         ' Allow new batch entry
         Txtbatch.Enabled = True
         Txtbatch.Focus()
-        txtrmbin.Enabled = True
+
 
         ' Reset flags
         productionStageInProgress = False

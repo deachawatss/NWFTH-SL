@@ -1,88 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\deachawat\\OneDrive - Newly Weds Foods Thailand Limited\\MyProjects\\SL1-3 Restructure\\SL1-Restructure\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{F7036616-7322-4882-AB1B-BBF16E735328}|SL1\\SL1.vbproj|c:\\users\\deachawat\\onedrive - newly weds foods thailand limited\\myprojects\\sl1-3 restructure\\sl1-restructure\\sl1\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{F7036616-7322-4882-AB1B-BBF16E735328}|SL1\\SL1.vbproj|solutionrelative:sl1\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7036616-7322-4882-AB1B-BBF16E735328}|SL1\\SL1.vbproj|c:\\users\\deachawat\\onedrive - newly weds foods thailand limited\\myprojects\\sl1-3 restructure\\sl1-restructure\\sl1\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{F7036616-7322-4882-AB1B-BBF16E735328}|SL1\\SL1.vbproj|solutionrelative:sl1\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7036616-7322-4882-AB1B-BBF16E735328}|SL1\\SL1.vbproj|c:\\users\\deachawat\\onedrive - newly weds foods thailand limited\\myprojects\\sl1-3 restructure\\sl1-restructure\\sl1\\formmessage.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{F7036616-7322-4882-AB1B-BBF16E735328}|SL1\\SL1.vbproj|solutionrelative:sl1\\formmessage.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7036616-7322-4882-AB1B-BBF16E735328}|SL1\\SL1.vbproj|c:\\users\\deachawat\\onedrive - newly weds foods thailand limited\\myprojects\\sl1-3 restructure\\sl1-restructure\\sl1\\formmessage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{F7036616-7322-4882-AB1B-BBF16E735328}|SL1\\SL1.vbproj|solutionrelative:sl1\\formmessage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\deachawat\\NWFTH-SL\\SL1-Restructure\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.vb",
-              "DocumentMoniker": "C:\\Users\\deachawat\\OneDrive - Newly Weds Foods Thailand Limited\\MyProjects\\SL1-3 Restructure\\SL1-Restructure\\SL1\\Form1.vb",
-              "RelativeDocumentMoniker": "SL1\\Form1.vb",
-              "ToolTip": "C:\\Users\\deachawat\\OneDrive - Newly Weds Foods Thailand Limited\\MyProjects\\SL1-3 Restructure\\SL1-Restructure\\SL1\\Form1.vb",
-              "RelativeToolTip": "SL1\\Form1.vb",
-              "ViewState": "AgIAAPUAAAAAAAAAAAAswFADAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-02-27T08:38:28.081Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\deachawat\\OneDrive - Newly Weds Foods Thailand Limited\\MyProjects\\SL1-3 Restructure\\SL1-Restructure\\SL1\\Form1.vb",
-              "RelativeDocumentMoniker": "SL1\\Form1.vb",
-              "ToolTip": "C:\\Users\\deachawat\\OneDrive - Newly Weds Foods Thailand Limited\\MyProjects\\SL1-3 Restructure\\SL1-Restructure\\SL1\\Form1.vb [Design]",
-              "RelativeToolTip": "SL1\\Form1.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-02-27T08:54:49.574Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FormMessage.Designer.vb",
-              "DocumentMoniker": "C:\\Users\\deachawat\\OneDrive - Newly Weds Foods Thailand Limited\\MyProjects\\SL1-3 Restructure\\SL1-Restructure\\SL1\\FormMessage.Designer.vb",
-              "RelativeDocumentMoniker": "SL1\\FormMessage.Designer.vb",
-              "ToolTip": "C:\\Users\\deachawat\\OneDrive - Newly Weds Foods Thailand Limited\\MyProjects\\SL1-3 Restructure\\SL1-Restructure\\SL1\\FormMessage.Designer.vb",
-              "RelativeToolTip": "SL1\\FormMessage.Designer.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-02-27T08:45:45.83Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FormMessage.vb",
-              "DocumentMoniker": "C:\\Users\\deachawat\\OneDrive - Newly Weds Foods Thailand Limited\\MyProjects\\SL1-3 Restructure\\SL1-Restructure\\SL1\\FormMessage.vb",
-              "RelativeDocumentMoniker": "SL1\\FormMessage.vb",
-              "ToolTip": "C:\\Users\\deachawat\\OneDrive - Newly Weds Foods Thailand Limited\\MyProjects\\SL1-3 Restructure\\SL1-Restructure\\SL1\\FormMessage.vb",
-              "RelativeToolTip": "SL1\\FormMessage.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-02-27T08:38:42.579Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

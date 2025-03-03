@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\deachawat\\NWFTH-SL\\SL2-Restruture\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E3FCAD03-DB64-4692-88D4-7069AD04C23C}|SL2\\SL2.vbproj|c:\\users\\deachawat\\nwfth-sl\\sl2-restruture\\sl2\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{E3FCAD03-DB64-4692-88D4-7069AD04C23C}|SL2\\SL2.vbproj|solutionrelative:sl2\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3FCAD03-DB64-4692-88D4-7069AD04C23C}|SL2\\SL2.vbproj|c:\\users\\deachawat\\nwfth-sl\\sl2-restruture\\sl2\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{E3FCAD03-DB64-4692-88D4-7069AD04C23C}|SL2\\SL2.vbproj|solutionrelative:sl2\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.vb",
+              "DocumentMoniker": "C:\\Users\\deachawat\\NWFTH-SL\\SL2-Restruture\\SL2\\Form1.vb",
+              "RelativeDocumentMoniker": "SL2\\Form1.vb",
+              "ToolTip": "C:\\Users\\deachawat\\NWFTH-SL\\SL2-Restruture\\SL2\\Form1.vb",
+              "RelativeToolTip": "SL2\\Form1.vb",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAkwH0AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-03-03T06:22:07.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\deachawat\\NWFTH-SL\\SL2-Restruture\\SL2\\Form1.vb",
+              "RelativeDocumentMoniker": "SL2\\Form1.vb",
+              "ToolTip": "C:\\Users\\deachawat\\NWFTH-SL\\SL2-Restruture\\SL2\\Form1.vb [Design]",
+              "RelativeToolTip": "SL2\\Form1.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-03-03T06:26:32.248Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -253,7 +253,7 @@ Public Class SL3
 
                 If objReader.HasRows = False Then
                     If thailanguage = 1 Then
-                        lblfgdesc.Text = "แบทซ์ไม่ถูกต้อง !"
+                        lblfgdesc.Text = "เลขแบทซ์ไม่ถูกต้อง !"
                         lblfgdesc.ForeColor = Color.Red
                     Else
                         lblfgdesc.Text = "Invalid batch"
@@ -261,7 +261,7 @@ Public Class SL3
                     End If
 
 
-                    ShowCustomMessage("Invalid batch number!", "แบทช์ไม่ถูกต้อง!", Color.Red, "error")
+                    ShowCustomMessage("Invalid batch number!", "เลขแบทช์ไม่ถูกต้อง!", Color.Red, "error")
                     invalidbatch = 1
                     txtbatch.Select()
                     txtbatch.SelectAll()
@@ -305,16 +305,16 @@ Public Class SL3
                             While readercbatch2.Read()
                                 If Not IsDBNull(readercbatch2.Item("FINISHPACK")) Then
 
-                                    'If thailanguage = 1 Then
-                                    '    Lblfgdesc.Text = "แบทช์นี้มีการบรรจุลงถัง " & reader("FGPackBinID").ToString() & " เรียบร้อยแล้ว"
-                                    'Else
-                                    '    'lblfgdesc.Text = "Already packed into bin " & readercbatch2.Item("fgpackbinid")
-                                    'End If
-                                    'Lblfgdesc.ForeColor = Color.Red
+                                    If thailanguage = 1 Then
+                                        lblfgdesc.Text = "แบทช์นี้มีการบรรจุลงถัง " & readercbatch2("FGPackBinID").ToString() & " เรียบร้อยแล้ว"
+                                    Else
+                                        lblfgdesc.Text = "Already packed into bin " & readercbatch2.Item("fgpackbinid")
+                                    End If
+                                    lblfgdesc.ForeColor = Color.Red
 
                                     ShowCustomMessage(
                                         "Already packed into bin: " & readercbatch2.Item("fgpackbinid"),
-                                        "มีการบรรจุลงถัง " & readercbatch2.Item("fgpackbinid").ToString() & "ไปแล้ว",
+                                        "แบทช์นี้มีการบรรจุลงถัง " & readercbatch2.Item("fgpackbinid").ToString() & "ไปแล้ว",
                                         Color.Red,
                                         "error"
                                     )
