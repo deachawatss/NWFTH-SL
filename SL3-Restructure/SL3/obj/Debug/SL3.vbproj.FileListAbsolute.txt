@@ -34,3 +34,15 @@ C:\Users\deachawat\NWFTH-SL\SL3-Restructure\SL3\obj\Debug\SL3.vbproj.CoreCompile
 C:\Users\deachawat\NWFTH-SL\SL3-Restructure\SL3\obj\Debug\SL3.exe
 C:\Users\deachawat\NWFTH-SL\SL3-Restructure\SL3\obj\Debug\SL3.xml
 C:\Users\deachawat\NWFTH-SL\SL3-Restructure\SL3\obj\Debug\SL3.pdb
+C:\MyProjects\SL1-3\NWFTH-SL\SL3-Restructure\SL3\bin\Debug\SL3.exe.config
+C:\MyProjects\SL1-3\NWFTH-SL\SL3-Restructure\SL3\bin\Debug\SL3.exe
+C:\MyProjects\SL1-3\NWFTH-SL\SL3-Restructure\SL3\obj\Debug\SL3.vbproj.AssemblyReference.cache
+C:\MyProjects\SL1-3\NWFTH-SL\SL3-Restructure\SL3\obj\Debug\SL3.SL3.resources
+C:\MyProjects\SL1-3\NWFTH-SL\SL3-Restructure\SL3\obj\Debug\SL3.Resources.resources
+C:\MyProjects\SL1-3\NWFTH-SL\SL3-Restructure\SL3\obj\Debug\SL3.vbproj.GenerateResource.cache
+C:\MyProjects\SL1-3\NWFTH-SL\SL3-Restructure\SL3\obj\Debug\SL3.vbproj.CoreCompileInputs.cache
+C:\MyProjects\SL1-3\NWFTH-SL\SL3-Restructure\SL3\obj\Debug\SL3.exe
+C:\MyProjects\SL1-3\NWFTH-SL\SL3-Restructure\SL3\obj\Debug\SL3.xml
+C:\MyProjects\SL1-3\NWFTH-SL\SL3-Restructure\SL3\obj\Debug\SL3.pdb
+C:\MyProjects\SL1-3\NWFTH-SL\SL3-Restructure\SL3\bin\Debug\SL3.pdb
+C:\MyProjects\SL1-3\NWFTH-SL\SL3-Restructure\SL3\bin\Debug\SL3.xml

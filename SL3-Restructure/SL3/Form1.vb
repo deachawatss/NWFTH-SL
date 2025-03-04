@@ -947,7 +947,7 @@ Public Class SL3
         ' Hide bin selection
         Butbin1.Visible = False : Butbin2.Visible = False : Butbin3.Visible = False
         Butbin4.Visible = False : Butbin5.Visible = False : Butbin6.Visible = False
-        Butbatchcomp.Visible = False
+        'Butbatchcomp.Visible = False
 
 
 
@@ -1183,6 +1183,8 @@ Public Class SL3
         Butbinpoint.Enabled = False : Butbinpoint.Visible = False
         Butbackspace.Enabled = False : Butbackspace.Visible = False
 
+        Butbatchcomp.Enabled = False
+
         ' Store last normal batch if not 999999
         Lblbatch2.Text = txtbatch.Text
         If txtbatch.Text <> "999999" Then
@@ -1221,6 +1223,8 @@ Public Class SL3
 
         butstart.BackColor = Color.Gray
         butfinish.BackColor = Color.Gray
+
+
     End Sub
 
 #End Region
